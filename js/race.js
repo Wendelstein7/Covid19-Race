@@ -95,7 +95,7 @@ $(document).ready(function () {
 
 
   /* things */
-  console.log('cloRetrieving input data...');
+  console.log('Retrieving input data...');
   getDataPromise(dataUrl)
     .then(result => {
       console.log('✅ Retrieved input data!');
