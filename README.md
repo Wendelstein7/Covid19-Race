@@ -2,9 +2,9 @@
 
 An application I made for fun to procrastinate school assignments.
 
-***Live at [thijmen.xyz/coronarace](https://thijmen.xyz/coronarace/)***
+***Live to see at [thijmen.xyz/coronarace](https://thijmen.xyz/coronarace/)***
 
-# Credits
+### Credits
 
 Statistics are fetched from [github.com/pomber/covid19](https://github.com/pomber/covid19).
 Icons made by [Freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](https://www.flaticon.com/).
