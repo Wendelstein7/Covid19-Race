@@ -93,13 +93,35 @@ a {
 
 .field {
   width: 100%;
+  margin-right: 8rem;
+  margin-bottom: 2rem;
 }
 
 .racer {
+  display: grid;
+  width: 3rem;
+  height: 3rem;
 
+  margin-bottom: -1.5rem;
+}
+
+.racer > p {
+  grid-column: 1;
+  grid-row: 1;
+
+  padding-left: 3.5rem;
+  font-weight: 600;
 }
 
 .flag {
+  grid-column: 1;
+  grid-row: 1;
+
   width: 3rem;
   height: 3rem;
+}
+
+@keyframes stretch-field {
+  from {margin-right: 100%;}
+  to {width: 8rem;}
 }
