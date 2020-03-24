@@ -4,6 +4,9 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
+
+  background-color: #222;
+  color: #fffaee;
 }
 
 body {
@@ -16,7 +19,7 @@ body {
   font-family: 'Montserrat', sans-serif;
 
   /* Debug */
-  background-color: #ccc;
+  /*background-color: #ccc;*/
 }
 
 header {
@@ -29,7 +32,7 @@ header {
   padding: 1rem;
 
   /* Debug */
-  background-color: #cff;
+  /*background-color: #cff;*/
 }
 
 header > h1 {
@@ -42,6 +45,26 @@ header > h1 {
   font-weight: 800;
 }
 
+.stats {
+  /* Base */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Size */
+  padding: 0 1rem 1rem;
+
+  /* Debug */
+  /*background-color: #fcc;*/
+}
+
+h2 {
+  /* Content */
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
 article {
   /* Base */
   display: flex;
@@ -50,10 +73,10 @@ article {
   flex: auto;
 
   /* Size */
-  padding: 1rem;
+  padding: 0 1rem 1rem;
 
   /* Debug */
-  background-color: #fcf;
+  /*background-color: #fcf;*/
 }
 
 footer {
@@ -63,14 +86,14 @@ footer {
   align-items: center;
 
   /* Size */
-  padding: 1rem;
+  padding: 0 1rem 1rem;
 
   /* Content */
   font-size: 1rem;
   font-weight: 600;
 
   /* Debug */
-  background-color: #ffc;
+  /*background-color: #ffc;*/
 }
 
 footer > p {
@@ -99,8 +122,8 @@ a {
 
 .racer {
   display: grid;
-  width: 3rem;
-  height: 3rem;
+  width: 2.75rem;
+  height: 2.75rem;
 
   margin-bottom: -1.5rem;
 }
